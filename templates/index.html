@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>{{ name }}的观影列表</title>
+    <title>{{ user.name }}的观影列表</title>
     <link rel="icon" href="{{ url_for('static', filename='logo.svg') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
 </head>
 <body>
     <h2>
         <img alt="title image" class="avatar" src="{{ url_for('static', filename='images/title.svg') }}">
-        {{ name }}的观影列表
+        {{ user.name }}的观影列表
     </h2>
 
     <p>{{ movies|length }}部影片</p>
