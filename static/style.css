@@ -7,12 +7,28 @@ body {
 }
 
 /* 页脚 */
-footer {
+.foot {
     color: azure;
     background-color: dimgray;
     margin-top: 15px;
     text-align: center;
     padding: 10px;
+}
+
+.foot a {
+    color: azure;
+    text-decoration: none;
+}
+
+.foot a:hover {
+    color: khaki;
+    text-decoration: none;
+}
+
+.footimg {
+    display: block;
+    margin: 0 auto;
+    height: 35px;
 }
 
 /* 头像 */
@@ -41,9 +57,42 @@ footer {
     background-color:#f8f9fa;
 }
 
-/* 底部图片 */
-.footimg {
+/* 菜单栏 */
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: dimgray;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
     display: block;
-    margin: 0 auto;
-    height: 40px;
+    color: azure;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111111;
+}
+
+/* IMDb连接 */
+.float-right {
+    float: right;
+}
+
+.imdb {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    background-color: gold;
+    border-radius: 5px;
+    padding: 3px 5px;
 }
