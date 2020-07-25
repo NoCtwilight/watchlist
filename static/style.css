@@ -96,3 +96,50 @@ body {
     border-radius: 5px;
     padding: 3px 5px;
 }
+
+/* 表单 */
+input[type=submit] {
+    font-family: 微软雅黑, Helvetica, sans-serif;
+}
+
+input[type=text] {
+    border: 1px solid black;
+}
+
+input[name=year] {
+    width: 50px;
+}
+
+.btn {
+    font-size: 12px;
+    padding: 3px 5px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    color: black;
+    border: 1px solid #555555;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: #111111;
+    color: beige;
+    border: 1px solid black;
+}
+
+/* 提示消息 */
+.alert {
+    position: relative;
+    padding: 7px;
+    margin: 7px 0;
+    border: 1px solid transparent;
+    color: chocolate;
+    background-color: cornsilk;
+    border-color: rgb(226, 199, 92);
+    border-radius: 5px;
+}
+
+.inline-form {
+    display: inline;
+}
